@@ -70,11 +70,12 @@ Ein einfaches Beispiel soll den Umgang mit dem Paket quantmod demonstrieren: Les
 
 *** =solution
 ```{r}
-library("quantmod")
-apple_aktien <- getSymbols( "AAPL", 
-                            from = "2017-02-13",
-                            to = "2017-02-17",
-                            auto.assign = FALSE)
+#library("quantmod")
+#apple_aktien <- getSymbols( "AAPL", 
+#                            from = "2017-02-13",
+#                            to = "2017-02-17",
+#                            auto.assign = FALSE)
+apple_aktien<-1
 ```
 
 *** =sct
