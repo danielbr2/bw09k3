@@ -62,7 +62,7 @@ Ein einfaches Beispiel soll den Umgang mit dem Paket quantmod demonstrieren: Les
 
 *** =sample_code
 ```{r}
-# laden Sie - wie in R auch - zunächst das Paket quantmod
+# laden Sie - wie in einer normalen R Session auch - zunächst das Paket quantmod
 # Achten Sie auch das Format des Datums
 
 # Speichern Sie Ihr Ergebnis unter dem Objekt apple_aktien
@@ -70,12 +70,11 @@ Ein einfaches Beispiel soll den Umgang mit dem Paket quantmod demonstrieren: Les
 
 *** =solution
 ```{r}
-#library("quantmod")
-#apple_aktien <- getSymbols( "AAPL", 
-#                            from = "2017-02-13",
-#                            to = "2017-02-17",
-#                            auto.assign = FALSE)
-apple_aktien<-1
+library("quantmod")
+apple_aktien <- getSymbols( "AAPL", 
+                            from = "2017-02-13",
+                            to = "2017-02-17",
+                            auto.assign = FALSE)
 ```
 
 *** =sct
